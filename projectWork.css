@@ -101,7 +101,7 @@ li {
   object-fit: contain;
   /* margin: auto; */
   overflow: hidden;
-  bottom: 60px;
+  bottom: 80px;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -142,7 +142,7 @@ li {
   }
 }
 .secHead {
-  max-width: 100%;
+  min-width: 100%;
 }
 
 @media (max-width: 768px) {

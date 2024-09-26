@@ -38,21 +38,21 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 5000);
 });
 
-// window.onscroll = function () {
-//   const navbar = document.getElementById("navbar");
-//   const stickyOffset = navbar.offsetTop;
+window.onscroll = function () {
+  const navbar = document.getElementById("navbar");
+  const stickyOffset = navbar.offsetTop;
 
-//   if (window.pageYOffset > stickyOffset) {
-//     navbar.classList.add("sticky"); // Add sticky class
-//     navbar.style.position = "fixed";
-//     navbar.style.top = "0";
-//     navbar.style.backgroundColor = "black";
-//   } else {
-//     navbar.classList.remove("sticky"); // Remove sticky class
-//     navbar.style.position = "relative";
-//     // navbar.style.backgroundColor = 'hidden'
-//   }
-// };
+  if (window.pageYOffset > stickyOffset) {
+    navbar.classList.add("sticky"); // Add sticky class
+    navbar.style.position = "fixed";
+    navbar.style.top = '0'
+    navbar.style.backgroundColor = "#051922";
+  } else {
+    navbar.classList.remove("sticky"); // Remove sticky class
+    navbar.style.position = "relative";
+    // navbar.style.backgroundColor = 'none'
+  }
+};
 
 const swiper = document.getElementById("swiper");
 const childElementCount = swiper.childElementCount;
