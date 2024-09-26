@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+<body class="bg-gray-800">
+    <div class="md:container-fluid bg-gray-800 pt-8 pb-8">
+        <div class="grid sm:grid-cols-2 border-2 border-white rounded-2xl bg-white w-10/12 ml-auto mr-auto mt-2 mb-2">
+            <div class="pt-10 pb-10 text-center md:text-center ">
+                <p class="text-4xl capitalize font-bold">
+                    create an account!
+                </p>
+                <p class="text-xl text-gray-600 pt-2  ml-[-70px]">
+                     Please register your details
+                </p>
+
+                <!-- <div class="w-10/12 relative pl-2 ml-20 ">
+                    <img src="./loginImage/google.png" class="w-6 pt-4 pb-4 absolute bottom-[-4px] left-[130px]" alt="">
+                    <button type="button" class="border-[0.1px] border-[#ccc] w-7/12 pb-2 pt-2 text-md ml-[-22px] rounded-2xl"> <p class="text-lg pl-8 pr-auto pl-auto">login to your google account</p></button>
+                </div> -->
+                <div class="flex w-full">
+                    <div class="w-[13%] bg-red-400 h-0 border-[0.2px] ml-52 mt-4"></div>
+                    <p class="text-md font-bold capitalize text-[#051922]">welcome new user</p>
+                    <div class="w-[13%] bg-red-400 h-0 border-[0.2px] mt-4"></div>
+                </div>
+                <div class="relative flex ">
+                    <div class="absolute  pl-4 pr-4  w-20 left-[155px] top-12">
+                        <i class="fa-solid fa-user text-4xl text-[#051922]"></i>
+                    </div>
+                    <div class="w-full  pt-8 ">
+                        <input type="text" class=" focus:border-t-0  focus:bg-gray-200 focus:text-black border-2 ml-[29px] pl-20 rounded-xl border-t-0 border-l-0 border-r-0 pt-6  mb-2 h-16 text-xl w-6/12 border-b-[#F28123] " placeholder="Full Name">
+                    </div> 
+                </div>
+                <div class="relative flex ">
+                    <div class="absolute  pl-4 pr-4  w-20 left-[155px] top-4">
+                        <i class="fa-solid fa-user text-4xl text-[#051922]"></i>
+                    </div>
+                    <div class="w-full   ">
+                        <input type="text" class=" focus:border-t-0  focus:bg-gray-200 focus:text-black border-2 ml-[29px] pl-20 rounded-xl border-t-0 border-l-0 border-r-0 pt-6  h-16 text-xl w-6/12 border-b-[#F28123] " placeholder="Username">
+                    </div>
+                </div>
+
+                <div class="relative flex ">
+                    <div class="absolute  pl-4 pr-4  w-20 left-[155px] top-4">
+                        <i class="fa-solid fa-envelope-open   text-4xl text-[#051922]"></i>
+                    </div>
+                    <div class="w-full   ">
+                        <input type="text" class=" focus:border-t-0  focus:bg-gray-200 focus:text-black border-2 ml-[29px] pl-20 rounded-xl border-t-0 border-l-0 border-r-0 pt-6  h-16 text-xl w-6/12 border-b-[#F28123] " placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="relative flex ">
+                    <div class="absolute  pl-4 pr-4  w-20 left-[155px] top-4">
+                        <i class="fa-solid fa-phone text-4xl text-[#051922]"></i>
+                    </div>
+                    <div class="w-full   ">
+                        <input type="text" class=" focus:border-t-0  focus:bg-gray-200 focus:text-black border-2 ml-[29px] pl-20 rounded-xl border-t-0 border-l-0 border-r-0 pt-6  h-16 text-xl w-6/12 border-b-[#F28123] " placeholder="Phone number">
+                    </div>
+                </div>
+               
+                <div class="relative flex">
+                    <div class="absolute   pl-4 pr-4  w-20 left-[155px] top-4">
+                        <img src="/signPage/loginImage/eyes_slash.png" class="" />
+                    </div>
+                    <div class="w-full    pet-8 ">
+                        <input type="password" class=" focus:border-t-0  focus:bg-gray-200 border-2 ml-[29px] pl-20 rounded-xl border-t-0 border-l-0 border-r-0 pt-6 h-16  text-xl w-6/12 border-b-[#F28123] " placeholder="Password">
+                    </div>
+                </div>
+
+                <div class="relative flex">
+                    <div class="absolute   pl-4 pr-4  w-20 left-[155px] top-4">
+                        <img src="/signPage/loginImage/eyes_slash.png" class="" />
+                    </div>
+                    <div class="w-full  pb-10  pet-8 ">
+                        <input type="password" class=" focus:border-t-0  focus:bg-gray-200 border-2 ml-[29px] pl-20 rounded-xl border-t-0 border-l-0 border-r-0 pt-4 h-16  text-xl w-6/12 border-b-[#F28123] " placeholder="Comfirmed Password">
+                    </div>
+                </div>
+
+                <div class="grid sm:grid-cols-2  relative">
+                    <div class=" ml-20 flex justify-center absolute left-[98px] align-center">
+                        <input type="checkbox" name="" id="">
+                        <p class="text-sm capitalize pl-2 text-black"> checked to submit</p>
+                    </div>
+
+                    <!-- <div class=" flex justify-center absolute right-[124px] align-center ">
+                        <u class="text-sm capitalize pl-2 text-black left-[202px]"> forget password</u>
+                    </div> -->
+                </div>
+                
+                <div class="w-10/12 pt-10 pl-2 ml-20 ">
+                    
+                    <button type="button" class="border-[0.1px] bg-[#051922] text-white border-[#ccc] w-7/12 pb-2 pt-2 text-md ml-[-22px] rounded-2xl"> <p class="text-lg pl-8 pr-auto pl-auto">login</p></button>
+                </div>
+            </div>
+            <div class=" ">
+                <div class="w-full pr-auto pl-auto">
+                    <img src="/signPage/loginImage/linux.png" class="mr-auto ml-auto" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
