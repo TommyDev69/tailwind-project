@@ -1,19 +1,19 @@
-  const listMenu = document.getElementById("listNav");
-        const navbar = document.getElementById("navbar");
+  // const listMenu = document.getElementById("listNav");
+  //       const navbar = document.getElementById("navbar");
 
-        function showNav() {
-            listMenu.classList.toggle("hidden"); // Toggle the 'hidden' class
-        }
+  //       function showNav() {
+  //           listMenu.classList.toggle("hidden"); // Toggle the 'hidden' class
+  //       }
 
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 10) {
-                navbar.classList.add("sticky");
-                navbar.classList.add("bg-green-500"); // Add green background when scrolling
-            } else {
-                navbar.classList.remove("sticky");
-                navbar.classList.remove("bg-green-500"); // Remove green background when at the top
-            }
-        });
+  //       window.addEventListener("scroll", () => {
+  //           if (window.scrollY > 10) {
+  //               navbar.classList.add("sticky");
+  //               navbar.classList.add("bg-green-500"); // Add green background when scrolling
+  //           } else {
+  //               navbar.classList.remove("sticky");
+  //               navbar.classList.remove("bg-green-500"); // Remove green background when at the top
+  //           }
+  //       });
 
 document.addEventListener("DOMContentLoaded", function () {
   const headSwipe = document.querySelector(".carousel-inner");
@@ -38,21 +38,21 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 5000);
 });
 
-window.onscroll = function () {
-  const navbar = document.getElementById("navbar");
-  const stickyOffset = navbar.offsetTop;
+// window.onscroll = function () {
+//   const navbar = document.getElementById("navbar");
+//   const stickyOffset = navbar.offsetTop;
 
-  if (window.pageYOffset > stickyOffset) {
-    navbar.classList.add("sticky"); // Add sticky class
-    navbar.style.position = "fixed";
-    navbar.style.top = "0";
-    navbar.style.backgroundColor = "black";
-  } else {
-    navbar.classList.remove("sticky"); // Remove sticky class
-    navbar.style.position = "relative";
-    // navbar.style.backgroundColor = 'hidden'
-  }
-};
+//   if (window.pageYOffset > stickyOffset) {
+//     navbar.classList.add("sticky"); // Add sticky class
+//     navbar.style.position = "fixed";
+//     navbar.style.top = "0";
+//     navbar.style.backgroundColor = "black";
+//   } else {
+//     navbar.classList.remove("sticky"); // Remove sticky class
+//     navbar.style.position = "relative";
+//     // navbar.style.backgroundColor = 'hidden'
+//   }
+// };
 
 const swiper = document.getElementById("swiper");
 const childElementCount = swiper.childElementCount;

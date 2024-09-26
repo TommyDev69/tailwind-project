@@ -94,14 +94,14 @@ li {
 }
 
 .carousel {
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 644px;
   /* max-width: 600px; */
   object-fit: contain;
   /* margin: auto; */
   overflow: hidden;
-
+  bottom: 60px;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
