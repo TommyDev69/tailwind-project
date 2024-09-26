@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 nav {
   padding: 8px 10px 4px 6px;
   z-index: 1;
@@ -10,26 +11,31 @@ nav {
 }
 
 nav.sticky {
-  background: none; /* Remove background when sticky */
+  background: none;
+  /* Remove background when sticky */
 }
 
 #listNav {
   display: block;
-  
-    transition: background-color 0.3s ease;
+
+  transition: background-color 0.3s ease;
 }
+
 .logo {
   color: #f28123;
 }
+
 @media (max-width: 768px) {
   .wnav .logwo {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .logo {
     margin-left: -10px;
   }
+
   #listNav {
     display: none;
     padding: 4px;
@@ -38,6 +44,7 @@ nav.sticky {
         color: #ccc; */
   }
 }
+
 li {
   color: #ffffff;
   display: inline;
@@ -45,39 +52,43 @@ li {
 }
 
 .active {
-  
+
   display: inline-block;
- 
+
 
 }
-.dropdown-content{
- display: none;
+
+.dropdown-content {
+  display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  
+
 }
+
 .active:hover .dropdown-content {
-  
-  display:block;
+
+  display: block;
 
 }
 
-.dropdown-content a{
-  padding:6px  16px;
+.dropdown-content a {
+  padding: 6px 16px;
   text-align: left;
   display: block;
   font-size: 18px;
   color: black;
 }
-.dropdown-content a:hover{
+
+.dropdown-content a:hover {
   color: #f28123;
   cursor: pointer;
 }
 
 @media (max-width: 768px) {
+
   li,
   .active {
     display: block;
@@ -133,6 +144,7 @@ li {
 }
 
 @media (max-width: 768px) {
+
   .menuContainer,
   .compass {
     display: block;
@@ -141,6 +153,7 @@ li {
     padding-top: 10px;
   }
 }
+
 .secHead {
   min-width: 100%;
 }
@@ -153,20 +166,15 @@ li {
     /* font-size:10px;  */
   }
 
-  .shipping {
-    /* margin-top:-404px; */
-    /* padding-right:10px; */
-    /* min-width: 100%;  */
-    /* font-size:16px;  */
-    /* 6display: block; */
-  }
   .busIcon {
     font-size: 17px;
     width: 100%;
   }
+
   .bus {
     font-size: 20px;
   }
+
   .order {
     font-size: 12px;
     padding-left: 180px;
@@ -177,8 +185,7 @@ li {
   padding-top: 14px;
 }
 
-@media (max-width: 768px) {
-}
+@media (max-width: 768px) {}
 
 .ourProduct {
   padding: 8% 20% 10px 40%;
@@ -186,21 +193,89 @@ li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
-#TommwyPic {
-  /* overflow: hidden;
-        border-radius: 50%; */
-  /* clip-path: path('Mw100,80 C 10,2 200,2 95,80 S 100,150 200,180') */
-}
+
 
 .carousel {
-  overflow: hidden; /* Hide overflow to create the swipe effect */
+  overflow: hidden;
+  /* Hide overflow to create the swipe effect */
   position: relative;
 }
+
 #carousel-inner {
   display: flex;
   transition: transform 0.5s ease;
 }
+
 #carousel-item {
-  min-width: 250px; /* Adjust width as necessary */
-  flex-shrink: 0; /* Prevent shrinking */
+  min-width: 250px;
+  /* Adjust width as necessary */
+  flex-shrink: 0;
+  /* Prevent shrinking */
 }
+
+.our-product {
+  margin-top: 120px;
+}
+
+@media (max-width: 768px) {
+  .our-product {
+    background-color: green;
+    margin-top: -100px;
+
+
+  }
+}
+
+.ourProd {
+  display: flex;
+
+}
+
+@media (max-width: 768px) {
+
+  .ourProd {
+    padding: 20px 89px 21px 112px;
+    font-size: 25px;
+    background-color: yellow;
+    font-weight: bold;
+
+
+  }
+
+}
+
+p.ourPro_content {}
+
+@media (max-width: 768px) {
+
+  p.ourPro_content {
+    width: 89%;
+    text-align: center;
+    background-color: blue;
+
+  }
+
+}
+
+.prod_card{}
+
+@media (max-width: 768px) {
+
+  .prod_card { 
+    display: flex;
+    gap:4px;
+    padding: 8px 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .card_prod { 
+    width: 35%;
+    display:flex;
+    background-color: red;
+  }
+
+}
+
