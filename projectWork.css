@@ -3,11 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+mai
 nav {
   padding: 8px 10px 4px 6px;
   z-index: 1;
-  position: relative;
+  position: relactive;
 }
 
 nav.sticky {
@@ -112,7 +112,7 @@ li {
   object-fit: contain;
   /* margin: auto; */
   overflow: hidden;
-  bottom: 80px;
+  top:-108px;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -128,15 +128,12 @@ li {
   min-width: 100%;
 }
 
-.carousel-item img {
-  width: 100%;
-  display: block;
-}
 
-.compass {
-  /* visibility: hidden;; */
-  /* font-size: 20px; */
-  /* color: #F28123; */
+.shipment{
+z-index: 1;
+}
+.content {
+  z-index: -1;
 }
 
 .menuContainer {
@@ -156,22 +153,22 @@ li {
 
 .secHead {
   min-width: 100%;
+  z-ixndex: -1;
+
 }
 
-@media (max-width: 768px) {
-  .secHead {
+/* @mediwa (max-width: 768px) {
+  .seceHead {
     margin-top: -405px;
     padding-right: 10px;
-    /* min-width: 100%;  */
-    /* font-size:10px;  */
   }
 
-  .busIcon {
+  .buseIcon {
     font-size: 17px;
     width: 100%;
   }
 
-  .bus {
+  .beus {
     font-size: 20px;
   }
 
@@ -181,27 +178,11 @@ li {
   }
 }
 
-.shipping {
+.shippeing {
   padding-top: 14px;
-}
+} */
 
 
-.carousel {
-  overflow: hidden;
-  /* Hide overflow to create the swipe effect */
-  position: relative;
-}
 
-#carousel-inner {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-#carousel-item {
-  min-width: 250px;
-  /* Adjust width as necessary */
-  flex-shrink: 0;
-  /* Prevent shrinking */
-}
 
 
