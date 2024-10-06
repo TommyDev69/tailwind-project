@@ -138,6 +138,7 @@ z-index: 1;
 
 .menuContainer {
   display: none;
+
 }
 
 @media (max-width: 768px) {
